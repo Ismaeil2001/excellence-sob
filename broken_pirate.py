@@ -1,4 +1,4 @@
-greeting = input("Hello, possible pirate! What's the password?)
+greeting = input("Hello, possible pirate! What's the password?")
 if greeting in ("Arrr!"):
 	print("Go away, pirate.")
 elif greeting in ("I h8 pirates"):
