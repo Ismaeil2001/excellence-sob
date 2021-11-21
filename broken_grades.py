@@ -42,14 +42,9 @@ def find_grades(grades):
         return "F"
 Grade=(find_grades(grades))
 print("Grade:",Grade)
-for grade in grades:
-    print("Exam: " + str(grade))
 
-    print("Average: " + str(avg))
 
-    print("Grade: " + letter_grade)
-
-if letter-grade is "F":
+if find_grades(grades)=="F":
     print("Student is failing.")
 else:
     print("Student is passing.")
